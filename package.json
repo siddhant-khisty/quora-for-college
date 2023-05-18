@@ -22,7 +22,7 @@
     "docker",
     "kubernetes"
   ],
-  "author": "Kaiwalya Koparkar",
+  "author": "Siddhant Khisty",
   "license": "MIT",
   "dependencies": {
     "@cucumber/cucumber": "^8.0.0-rc.1",

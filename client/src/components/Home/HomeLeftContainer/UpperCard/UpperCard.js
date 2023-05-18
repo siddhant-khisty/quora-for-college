@@ -79,27 +79,27 @@ export default function UpperCard () {
                 <List sx={{ width: '100%', maxWidth: 350, bgcolor: 'background.paper', borderRadius: 5 }}>
                     <ListItem>
                         <ListItemAvatar>
-                            <Avatar alt="Kaiwalya Koparkar" src={user_1} />
+                            <Avatar alt="Siddhant Khisty" src={user_1} />
                         </ListItemAvatar>
-                        <ListItemText primary="Kaiwalya Koparkar"/>
+                        <ListItemText primary="Siddhant Khisty"/>
                     </ListItem>
                     <ListItem>
                         <ListItemAvatar>
-                            <Avatar alt="Vadanya Wabale" src={user_2} />
+                            <Avatar alt="Kunal Nikam" src={user_2} />
                         </ListItemAvatar>
-                        <ListItemText primary="Vadanya Wabale" />
+                        <ListItemText primary="Kunal Nikam" />
                     </ListItem>
                     <ListItem>
                         <ListItemAvatar>
-                            <Avatar alt="Pragati More" src={user_3} />
+                            <Avatar alt="Sanika Patil" src={user_3} />
                         </ListItemAvatar>
-                        <ListItemText primary="Pragati More" />
+                        <ListItemText primary="Sanika Patil" />
                     </ListItem>
                     <ListItem>
                         <ListItemAvatar>
-                            <Avatar alt="Mrunaal Chincholikar" src={user_4} />
+                            <Avatar alt="Siddhant Nerpagare" src={user_4} />
                         </ListItemAvatar>
-                        <ListItemText primary="Mrunaal Chincholikar"/>
+                        <ListItemText primary="Siddhant Nerpagare"/>
                     </ListItem>
                 </List>
 
