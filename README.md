@@ -1,52 +1,29 @@
 <h1 align="center"> 🏫 Quora for College 🏫 </h1>
 
-<p align="center">
-	<a href="https://github.com/kaiwalyakoparkar/quora-for-college"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
-	<a href="https://github.com/kaiwalyakoparkar/quora-for-college"><img src="https://img.shields.io/badge/Built%20by-developers%20%3C%2F%3E-0059b3"></a>
-	<a href="https://github.com/kaiwalyakoparkar/quora-for-college"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=yellow"></a>
-	<a href="https://github.com/kaiwalyakoparkar/"><img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?v=103"></a>
-	<a href="https://buymeacoffee.com/kaiwalya"><img src="https://img.shields.io/badge/Sponsor-%E2%99%A5-blue?logo=heart&stype=flat&link=https://buymeacoffee.com/kaiwalya"></a>
-</p>
-
 
 ## 💡 Inspiration -
 We are trying to develop a web application that would be sort of Quora but specifically dedicated to college(s). The main problem we are trying to solve is that the juniors don’t know about their seniors or vise versa and they have no means of establishing communication with them. That’s when the application of our software comes into the picture. We have built centralized api which can be used by organisations directly into their portal to quickly facilitate faq's and general questions.
 
 ## Ways to use this API -
-1. [Pulling the API container image](https://ghcr.io/kaiwalyakoparkar/quora-for-college-api:latest)
-2. [Forking/Clonning and running Scripts](https://github.com/kaiwalyakoparkar/quora-for-college/tree/main/#-forkingclonning-and-running-scripts--)
+1. [Pulling the API container image](docker.io/siddhantkhisty/quora-for-college:latest)
+2. [Running Locally with scripts](https://github.com/kaiwalyakoparkar/quora-for-college/tree/main/#-forkingclonning-and-running-scripts--)
 
-## Ways to use entire application (With demo frontend) - 
-1. [Pulling the Application container image](https://ghcr.io/kaiwalyakoparkar/quora-for-college:latest)
-2. [Forking/Clonning and running application](https://github.com/kaiwalyakoparkar/quora-for-college/tree/main/#-forkingclonning-and-running-scripts--)
 
-## 🍴 Forking/Clonning and running api Scripts -
-1. Follow the forking, clonning and local environment setup steps as [mentioned here](https://github.com/kaiwalyakoparkar/quora-for-college/tree/main/server/server#Project-setup--contribution-steps)
-2. Navigate to `/server` folder
-3. Run `npm start` or `npm run start:dev` to start prod or dev environment as you like
-4. Go to your api testing tool or application where you need to use this api
-5. Implement the [Routes Available](https://github.com/kaiwalyakoparkar/quora-for-college/tree/main/server/server#-routes-available--)
-
-## 🍴 Forking/Clonning and running application (demo frontend) -
-1. Follow the forking, clonning and local environment setup steps as [mentioned here](https://github.com/kaiwalyakoparkar/quora-for-college/tree/main/server/server#Project-setup--contribution-steps)
-2. Run `npm start` or `npm run start` to start prod or dev environment as you like
-3. Wait until you are redirected to your browser and a demo frontend is displayed
+## 🍴 Running api Scripts -
+1. Navigate to root folder
+2. Run `npm start` or `npm run start:dev` to start prod or dev environment as you like
+3. Go to your api testing tool or application where you need to use this api
+4. Implement the Routes Available mentioned below
 
 
 ## 🐳 Pulling the API container image -
-1. Go to [Container Registray Page](https://ghcr.io/kaiwalyakoparkar/quora-for-college-api:latest)
+1. Go to [Container Registray Page](docker.io/siddhantkhisty/quora-for-college:latest)
 2. Make sure you have docker download, installed and checked on their hello world image
-3. Run Docker command `docker pull ghcr.io/kaiwalyakoparkar/quora-for-college-api:latest`
-4. Make sure you are in `/quora-for-college/server` directory
+3. Run Docker command `docker docker.io/siddhantkhisty/quora-for-college:latest`
+4. Make sure you are in `/quora-for-college/` directory
 5. Now run command `docker-compose up --build`. This will build and start the backend container with the database
-6. Now move to api testing tool or application and use [available routes](https://github.com/kaiwalyakoparkar/quora-for-college/tree/main/server/server#-routes-available--) to use the API
+6. Now move to api testing tool or application and use available routes to use the API
 
-## 🐳 Pulling the Application container image -
-1. Go to [Container Registray Page](https://ghcr.io/kaiwalyakoparkar/quora-for-college-api:latest)
-2. Make sure you have docker download, installed and checked on their hello world image
-3. Run Docker command `docker pull ghcr.io/kaiwalyakoparkar/quora-for-college:latest`
-4. Make sure you are in `/quora-for-college` directory
-5. Test out the project with demo frontend in the browser
 
 ## 🛤 Routes Available -
 
@@ -787,9 +764,6 @@ And ideal response will look like
 null
 ```
 
-## 🙌 Want to contribute?
-If you would like to contribute to this api please go ahead and read [COC](../CODE_OF_CONDUCT.md) and [Contributing Guideline](../CONTRIBUTING.md). Once you read through them agree to policies of this question go ahead with **question setup & Contribution** steps below
-
 ### Pre-requisites
 
 1. NodeJs installed in local environment.
@@ -797,41 +771,16 @@ If you would like to contribute to this api please go ahead and read [COC](../CO
 3. GitHub account.
 4. Knowledge of ReactJS, Material UI, NodeJS, MongoDB
 
-### Project setup & Contribution steps
+### Project setup
 
-1. Fork the question
-![forking the question](https://i.imgur.com/F7XizVC.png)
+1. Enter the folder by running the following command
+`cd quora-for-college/`
 
-2. Once you are in your fork the url should look something like
-`https://github.com/<YOUR-USERNAME>/quora-for-college/`
+2. Now you are in the project's root folder
 
-3. Go to preferred folder in your computer and paste the following command (Only one of it if you don't have ssh setup then go with HTTP command)
-   - HTTP
-   `git clone https://github.com/<YOUR-USERNAME>/quora-for-college.git`
-   - SSH
-   `git clone git@github.com:<YOUR-USERNAME>/quora-for-college.git`
+3. Now run `npm ci`
 
-4. Now enter the folder by running the following command
-`cd quora-for-college/server`
+4. While `npm ci` runs, go ahead and change the enviornment variables in `.env` file to whatever suits your needs.
 
-5. Now you are in the `/server` folder
-
-6. Now do ahead and create a new branch and move to the branch
-`git checkout -b fix-issue-<ISSUE-NUMBER>`
-
-7. Now run `npm i` and once it's done do your fixes and changes.
-
-8. After done you can now push this changes. for doing that follow the following command chain
-   - `git status` (Shows the changed files)
-   - `git add .` (Will add all the files to staging area)
-   - `git commit -m "feat/docs/fix: :emoji-name: <EXPLAIN-YOUR_CHANGES>"`
-   - `git push origin fix-issue-<ISSUE-NUMBER>`
-
-9. After this go to your forked GitHub repository and go to `Pull Request` section. Now you might be able to see a pop up saying **Pull Request**. Click on the popup and you will be redirected to pull request page
-
-10. Now fill in the form template of the pull request
-
-11. Click on **Submit**
-
-12. Hurray! You just did your contribution to this question 🎉
+5. In order to run it, you can either build your own container image using the dockerfile provided, or run it locally using `npm start`. Before running  `npm start`, feed in some dummy data using `npm run importQuestionsData` and `npm run importAnswersData`. A list of all avaliable scripts can be found in the `package.json` file.
 
