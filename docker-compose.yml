@@ -5,7 +5,7 @@ services:
   quoraforcollege_api:
     container_name: quoraforcollege-api-container
     restart: always
-    image: ghcr.io/kaiwalyakoparkar/quora-for-college-api:latest
+    image: docker.io/siddhantkhisty/quora-for-college:latest
     env_file: .env
     ports:
       - "8080:8080"
